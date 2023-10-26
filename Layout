@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
 /* Body specifications: Beginning  #F0FFFF*/
 body {
   font-family: normal;
@@ -46,7 +53,6 @@ body {
 
 
 
-
 /* Footer: Beginnig */
 .footer {
   padding: 150px;
@@ -63,3 +69,30 @@ body {
     width: 100%;
   }
 }
+
+
+</style>
+</head>
+<body>
+
+
+
+<!-- Navigation bar: Beginning-->
+  <div class="topnav">
+      <img src="LogotipoXtoura.jpg" class="logo" alt="Logo">
+    <a href="#" style="float:right">Contato</a>
+    <a href="#" style="float:right">Sobre Nós</a>
+    <a href="#" style="float:right">Licitar</a>
+    <a href="#" style="float:right">Obras</a>
+    <a href="#" style="float:right">Página Inicial</a>
+
+  </div>
+<!-- Navigation bar: End -->
+
+
+
+</body>
+</html>
+
+
+
