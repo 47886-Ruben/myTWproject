@@ -89,7 +89,11 @@ body {
   </div>
 <!-- Navigation bar: End -->
 
-
+<!-- Footer: Beginning -->
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+<!-- Footer: End -->
 
 </body>
 </html>
