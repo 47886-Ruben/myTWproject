@@ -1,0 +1,65 @@
+/* Body specifications: Beginning  #F0FFFF*/
+body {
+  font-family: normal;
+
+  background: skyblue;
+}
+/* Body specifications: End */
+
+/* Style the navigation bar: Beginning */
+.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color: #F0FFFF;
+}
+
+/* Style the navigation bar: End */
+
+
+/* Style the navigation bar links: Beginnign */
+.topnav a {
+  float: left;
+  display: block;
+  color: #1B1212;
+  text-align: center;
+  padding: 30px 16px;
+  text-decoration: none;
+}
+.logo {
+  max-width: 70px;
+  margin-right: 10px;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* Style the navigation bar links: End */
+
+
+
+
+
+
+/* Footer: Beginnig */
+.footer {
+  padding: 150px;
+  text-align: center;
+  background: #343433;
+  margin-top: 0px;
+}
+/* Footer: End */
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
